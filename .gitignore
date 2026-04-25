@@ -1,0 +1,56 @@
+# Python Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+env/
+.env
+.venv/
+ENV/
+
+# Jupyter Notebook & Checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+checkpoint_*.ipynb
+
+# System Files
+.DS_Store
+Thumbs.db
+*.swp
+
+# IDEs
+.vscode/
+.idea/
+
+# Project-Specific Data & Artifacts
+# Protects against large telemetry files and temp processing data
+*.jsonl
+*.json
+*.csv
+*.pkl
+*.log
+
+# Sensitive Credentials
+# Prevents accidental upload of VirusTotal or Cloud API keys
+secrets.py
+config.yaml
+.env
